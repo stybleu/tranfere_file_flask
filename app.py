@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 # -----------------------
 # Configuration
 # -----------------------
-UPLOAD_FOLDER = "fichiers"
+UPLOAD_FOLDER = "/tmp/fichiers"
 MAX_CONTENT_LENGTH = 512 * 1024 * 1024  # 512 Mo max
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
